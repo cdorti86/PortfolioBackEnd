@@ -1,0 +1,17 @@
+@startuml
+class BaseClass
+namespace net.dummy #dddddd {
+.BaseClass <|—Person
+Meeting o—Person
+.BaseClass <|-Meeting
+}
+Namespace net.foo {
+Net.dummy.Person <|- Person
+.BaseClass <|-- Person
+
+Net.dummy.Meeting o—Person
+}
+
+BaseClass <|-- net.unused.Person
+
+@enduml
