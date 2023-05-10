@@ -4,6 +4,7 @@ ar\com\cristiancorti\Portfolio\model\Domicilio.class
 ar\com\cristiancorti\Portfolio\repository\IRepoExperiencia_Laboral.class
 ar\com\cristiancorti\Portfolio\controller\controllerLogro.class
 ar\com\cristiancorti\Portfolio\model\Sobre_mi.class
+ar\com\cristiancorti\Portfolio\CorsConfig.class
 ar\com\cristiancorti\Portfolio\service\Sobre_miService.class
 ar\com\cristiancorti\Portfolio\model\Educacion.class
 ar\com\cristiancorti\Portfolio\repository\IRepoLogro.class
@@ -16,16 +17,15 @@ ar\com\cristiancorti\Portfolio\service\IProyectoService.class
 ar\com\cristiancorti\Portfolio\repository\IRepoDomicilio.class
 ar\com\cristiancorti\Portfolio\service\IPersonaService.class
 ar\com\cristiancorti\Portfolio\service\DomicilioService.class
-Config\CorsConfig.class
 ar\com\cristiancorti\Portfolio\service\ValidacionService.class
 ar\com\cristiancorti\Portfolio\model\Persona.class
-Config\CorsConfig$1.class
 ar\com\cristiancorti\Portfolio\PortfolioApplication.class
 ar\com\cristiancorti\Portfolio\controller\controllerEducacion.class
 ar\com\cristiancorti\Portfolio\repository\IRepoAptitud.class
 ar\com\cristiancorti\Portfolio\service\IDomicilioService.class
 ar\com\cristiancorti\Portfolio\controller\controllerPersona.class
 ar\com\cristiancorti\Portfolio\service\Experiencia_LaboralService.class
+ar\com\cristiancorti\Portfolio\CorsConfig$1.class
 ar\com\cristiancorti\Portfolio\service\PersonaService.class
 ar\com\cristiancorti\Portfolio\repository\IRepoProyecto.class
 ar\com\cristiancorti\Portfolio\repository\IRepoEducacion.class

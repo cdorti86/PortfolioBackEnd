@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ar.com.cristiancorti.Portfolio.PortfolioApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.562 s - in ar.com.cristiancorti.Portfolio.PortfolioApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.232 s - in ar.com.cristiancorti.Portfolio.PortfolioApplicationTests

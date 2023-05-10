@@ -1,4 +1,5 @@
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\model\Logro.java
+C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\CorsConfig.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\service\Sobre_miService.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\repository\IRepoAptitud.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\repository\IRepoExperiencia_Laboral.java
@@ -49,5 +50,4 @@ C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\controller\controllerProyecto.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\controller\controllerSobre_mi.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\repository\IRepoPersona.java
-C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\Config\CorsConfig.java
 C:\Temp\PortfolioBackEnd\Portfolio\src\main\java\ar\com\cristiancorti\Portfolio\service\IDomicilioService.java
