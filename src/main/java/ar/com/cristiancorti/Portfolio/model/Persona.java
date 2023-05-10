@@ -21,7 +21,7 @@ import lombok.Setter;
 public class Persona {
     
         @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     Long id;
     String nombre;
     String apellido;

@@ -20,7 +20,7 @@ import lombok.Setter;
 public class Experiencia_Laboral {
     
     @Id
-    @GeneratedValue(strategy=GenerationType.TABLE)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     Long id;
     String NombreEmpresa;
     boolean esTrabajoActual;

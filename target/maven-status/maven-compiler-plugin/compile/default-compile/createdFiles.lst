@@ -16,8 +16,10 @@ ar\com\cristiancorti\Portfolio\service\IProyectoService.class
 ar\com\cristiancorti\Portfolio\repository\IRepoDomicilio.class
 ar\com\cristiancorti\Portfolio\service\IPersonaService.class
 ar\com\cristiancorti\Portfolio\service\DomicilioService.class
+Config\CorsConfig.class
 ar\com\cristiancorti\Portfolio\service\ValidacionService.class
 ar\com\cristiancorti\Portfolio\model\Persona.class
+Config\CorsConfig$1.class
 ar\com\cristiancorti\Portfolio\PortfolioApplication.class
 ar\com\cristiancorti\Portfolio\controller\controllerEducacion.class
 ar\com\cristiancorti\Portfolio\repository\IRepoAptitud.class

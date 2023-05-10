@@ -21,7 +21,7 @@ import lombok.Setter;
 public class Aptitud {
     
     @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     long id;
     String Descripcion;
     float Porcentaje;
