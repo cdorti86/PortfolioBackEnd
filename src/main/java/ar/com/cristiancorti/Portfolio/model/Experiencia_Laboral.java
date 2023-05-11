@@ -4,6 +4,7 @@
  */
 package ar.com.cristiancorti.Portfolio.model;
 
+import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -22,6 +23,7 @@ public class Experiencia_Laboral {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     Long id;
+       @Basic
     String NombreEmpresa;
     boolean esTrabajoActual;
     String Fecha_de_Inicio;

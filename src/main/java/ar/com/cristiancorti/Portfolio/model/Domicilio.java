@@ -4,6 +4,7 @@
  */
 package ar.com.cristiancorti.Portfolio.model;
 
+import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,6 +24,7 @@ public class Domicilio {
             @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     Long id;
+               @Basic
     String Domicilio;
     String Localidad;
     String Provincia;
