@@ -45,5 +45,10 @@ public class PersonaService implements IPersonaService {
     public void modificarPersona(Persona pers) {
         personaRepo.save(pers);
     }
+
+    @Override
+    public void borrarIdPersona(long id) {
+            personaRepo.deleteById(id);
+    }
     
 }

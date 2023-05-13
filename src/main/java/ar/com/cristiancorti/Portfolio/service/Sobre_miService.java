@@ -45,5 +45,10 @@ public class Sobre_miService implements ISobre_miService {
     public void modificarSobre_mi(Sobre_mi somi) {
         sobre_miRepo.save(somi);
     }
+
+    @Override
+    public void borrarIdSobre_mi(long id) {
+            sobre_miRepo.deleteById(id);    
+    }
     
 }

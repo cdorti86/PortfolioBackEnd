@@ -44,5 +44,10 @@ public class ValidacionService implements IValidacionService {
     public void modificarValidacion(Validacion vali) {
         validacionRepo.save(vali);
     }
+
+    @Override
+    public void borrarIdValidacion(long id) {
+            validacionRepo.deleteById(id); 
+    }
     
 }

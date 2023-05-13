@@ -39,7 +39,12 @@ public class controllerProyecto {
     public void borrarPersona (@RequestBody Proyecto proy) {
         iproyectosvc.borrarProyecto(proy);
     }
-    
+
+    @DeleteMapping("/delete/proyecto/{id}")
+    public void borrarIdProyecto (@PathVariable Long id) {
+        iproyectosvc.borrarIdProyecto(id);
+    }
+
     @GetMapping("/lista/proyectos")
     @ResponseBody
     public List<Proyecto> listadeProyectos() {

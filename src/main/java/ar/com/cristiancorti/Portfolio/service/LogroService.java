@@ -44,5 +44,10 @@ public class LogroService implements ILogroService{
     public void modificarLogro(Logro logr) {
         logroRepo.save(logr);
     }
+
+    @Override
+    public void borrarIdLogro(long id) {
+            logroRepo.deleteById(id);
+    }
     
 }

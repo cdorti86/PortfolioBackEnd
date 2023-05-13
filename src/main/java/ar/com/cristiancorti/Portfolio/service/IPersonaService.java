@@ -15,6 +15,7 @@ public interface IPersonaService {
     public List<Persona> listaPersonas();
     public void nuevoPersona (Persona pers);
     public void borrarPersona(Persona pers);
+    public void borrarIdPersona (long id);
     public Persona buscarPersona (long id);
     public void modificarPersona (Persona pers);    
 }

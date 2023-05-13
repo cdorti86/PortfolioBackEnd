@@ -38,6 +38,11 @@ public class controllerPersona {
     public void borrarPersona (@RequestBody Persona pers) {
         ipersonasvc.borrarPersona(pers);
     }
+
+    @DeleteMapping("/delete/persona/{id}")
+    public void borrarIdPersona (@PathVariable Long id) {
+        ipersonasvc.borrarIdPersona(id);
+    }
     
     @GetMapping("/lista/personas")
     @ResponseBody

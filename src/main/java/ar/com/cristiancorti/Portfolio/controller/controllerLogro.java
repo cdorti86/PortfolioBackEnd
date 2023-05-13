@@ -38,7 +38,12 @@ public class controllerLogro {
     public void borrarLogro (@RequestBody Logro logr) {
         ilogrosrv.borrarLogro(logr);
     }
-    
+
+    @DeleteMapping("/delete/logro/{id}")
+    public void borrarIdLogro (@PathVariable Long id) {
+        ilogrosrv.borrarIdLogro(id);
+    }
+
     @GetMapping("/lista/logro")
     @ResponseBody
     public List<Logro> listadeLogros() {

@@ -38,6 +38,11 @@ public class controllerSobre_mi {
     public void borrarSobre_mi (@RequestBody Sobre_mi somi) {
         isobre_misvc.borrarSobre_mi(somi);
     }
+
+    @DeleteMapping("/delete/sobre_mi/{id}")
+    public void borrarSobre_mi (@PathVariable Long id) {
+        isobre_misvc.borrarIdSobre_mi(id);
+    }
     
     @GetMapping("/lista/sobre_mi")
     @ResponseBody

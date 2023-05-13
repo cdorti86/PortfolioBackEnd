@@ -39,6 +39,11 @@ public class controllerValidacion {
         ivalidacionsvc.borrarValidacion(vali);
     }
     
+    @DeleteMapping("/delete/validacion/{id}")
+    public void borrarIdValidacion (@PathVariable Long id) {
+        ivalidacionsvc.borrarIdValidacion(id);
+    }    
+
     @GetMapping("/lista/validaciones")
     @ResponseBody
     public List<Validacion> listadeValidaciones() {

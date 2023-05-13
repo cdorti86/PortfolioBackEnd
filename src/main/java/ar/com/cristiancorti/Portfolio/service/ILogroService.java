@@ -15,6 +15,7 @@ public interface ILogroService {
     public List<Logro> listaLogros();
     public void nuevoLogro (Logro logr);
     public void borrarLogro (Logro logr);
+    public void borrarIdLogro (long id);
     public Logro buscarLogro (long id);
     public void modificarLogro (Logro logr);    
 }

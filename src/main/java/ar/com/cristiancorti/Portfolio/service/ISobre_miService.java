@@ -15,6 +15,7 @@ public interface ISobre_miService {
     public List<Sobre_mi> listaSobre_mi();
     public void nuevoSobre_mi (Sobre_mi somi);
     public void borrarSobre_mi (Sobre_mi somi);
+    public void borrarIdSobre_mi (long id);
     public Sobre_mi buscarSobre_mi (long id);
     public void modificarSobre_mi (Sobre_mi somi);    
 }
